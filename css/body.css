@@ -505,7 +505,7 @@ body.dark .logo img {
 
 .swiper-container {
 	width: 100%;
-	height: 700px;
+	height: 1100px;
 	padding-top: 5em;
 }
 @media screen and (max-width: 700px) {
@@ -543,6 +543,13 @@ body.dark .logo img {
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
+			
+		}
+		.swiper-slide h1{
+			position: absolute;
+			font-size: 100px;
+			color: #fff;
+			font-weight: 400;
 			
 		}
 		
@@ -596,4 +603,9 @@ body.dark .logo img {
 
 
 		  }
-		  
+
+		 .date{
+			 color: #fff;
+			 background-color: #003A86;
+			 font-size: 200px;
+		 }
