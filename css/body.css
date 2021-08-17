@@ -579,3 +579,21 @@ body.dark .logo img {
 			  
 			 
 		  }
+
+		  .imageofsir {
+			  border-color: #003A86;
+			  border-width: 5px;
+		  }
+
+		  .svg1{
+			  
+			  position: absolute;
+			  bottom: 100px;
+			  object-fit: cover;
+			  opacity: .5;
+			
+			  
+
+
+		  }
+		  
