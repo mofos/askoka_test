@@ -15,7 +15,7 @@ Sanga Reddy district, Hyderabad - 502 325</p>
 
           <div class="col-sm-3 col-md-3" style='text-align: center; '>
             
-            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="30%" viewBox="0 0 371 123">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="60%" viewBox="0 0 371 123">
   <g id="Group_37" data-name="Group 37" transform="translate(-774 -4549)">
     <g id="Group_33" data-name="Group 33" transform="translate(774 4549)">
       <g id="Group_9" data-name="Group 9">
