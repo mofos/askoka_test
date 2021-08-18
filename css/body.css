@@ -4,10 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
 
-
-
+@font-face {
+	font-family: Font;
+	src: url(../fonts/SilkSerif-Regular.woff);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
 body{
-	background-color: rgb(248, 248, 248);
+	background-color: rgb(255, 255, 255);
  
 }
 
@@ -505,7 +508,7 @@ body.dark .logo img {
 
 .swiper-container {
 	width: 100%;
-	height: 1100px;
+	height: 100%;
 	padding-top: 5em;
 }
 @media screen and (max-width: 700px) {
@@ -610,3 +613,95 @@ body.dark .logo img {
 			 background-color: #003A86;
 			 font-size: 200px;
 		 }
+		 .mainn{
+			 background-color: rgb(255, 255, 255);
+			 margin-top: 100px;
+			 font-family: font;
+			 font-size: 1.5em;
+			 text-align: center;
+			 padding: 3em;
+			 
+		 }
+.woman{
+	
+}
+	
+.magic{
+	background-color: white;
+	max-width: 800px;
+	margin: auto;
+}
+
+.magic p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	padding: 2em;
+}
+
+
+
+body {
+	
+	transition: background-color 1s ease;
+  }
+  
+  /* panel styles */
+  .panel {
+	/* min height incase content is higher than window height */
+	min-height: 100vh;
+	display: block;
+	justify-content: space-around;
+	align-items: center;
+	font-family: sans-serif;
+	max-width: 900px;
+	margin: auto;
+	/* outline: 10px solid hotpink; */
+	/* turn above on to see the edge of panels */
+  }
+  .panel p {
+	 
+  }
+  /* colours */
+  .color-violet {
+	background-color: #794eab00;
+  }
+  .color-indigo {
+	background-color: #ff00000a;
+  }
+  .color-blue {
+	background-color: #ff8a0513;
+  }
+  .color-green {
+	background-color: #ffd9001f;
+  }
+  .color-yellow {
+	background-color: #ff009518;
+  }
+  
+  
+  /* styling for demo, can ignore */
+  body {
+	text-align: center;
+	font-size: 120%;
+	line-height: 1.618;
+  }
+ .panel h1 {
+	font-size: 2em;
+	letter-spacing: -0.05em;
+	line-height: 1.1;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	margin-top: 70px;
+}
+.panel h3{
+	  font-family: 'Open Sans', sans-serif;
+font-style: italic;
+padding: 1em;
+  }
+  
+  a {
+	color: #4332CF;
+  }
+
+ 
