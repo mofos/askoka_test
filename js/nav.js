@@ -24,7 +24,7 @@ class MyComponent extends HTMLElement {
 									
 								</li>
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="/About.html">ABOUT US</a>
+									<a class="nav-link" href="/aboutus.html">ABOUT US</a>
 								</li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                 <a class="nav-link" href="/Products.html">PRODUCTS</a>

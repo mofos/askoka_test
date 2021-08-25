@@ -371,56 +371,6 @@ body.hero-anime #switch{
 	background-color: rgba(216, 3, 3, 0.6);
 }
 
-body.dark{
-	color: #fff;
-	background-color: #1f2029;
-}
-body.dark .navbar-brand img{
-  filter: brightness(100%);
-}
-body.dark h1{
-	color: #fff;
-}
-body.dark h1 span{
-    transition-delay: 0ms !important;
-}
-body.dark p{
-	color: #fff;
-    transition-delay: 0ms !important;
-}
-body.dark .bg-light {
-	background-color: #14151a !important;
-}
-body.dark .start-header {
-	box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
-}
-body.dark .start-header.scroll-on {
-	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
-}
-body.dark .nav-link{
-	color: #fff !important;
-}
-body.dark .nav-item.active .nav-link{
-	color: #999 !important;
-}
-body.dark .dropdown-menu {
-	color: #fff;
-	background-color: #1f2029;
-	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
-}
-body.dark .dropdown-item {
-	color: #fff;
-}
-body.dark .navbar-light .navbar-toggler-icon {
-	border-bottom: 1px solid #fff;
-}
-body.dark .navbar-light .navbar-toggler-icon:after, 
-body.dark .navbar-light .navbar-toggler-icon:before{
-	background-color: #fff;
-}
-body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
-	border-color: transparent;
-}
 
 
 
@@ -483,6 +433,16 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 		background-color: transparent;
 		box-shadow: none;
 	}
+
+	.mainn h1{
+		background-color: rgb(255, 255, 255);
+		margin-top: 1px;
+		font-family: font;
+		font-size: 24px;
+		text-align: center;
+		padding: 0.5em;
+		
+	}
 }
 
 
@@ -517,6 +477,8 @@ body.dark .logo img {
 		height: 400px;
 		padding-top: 5em;
 	}
+
+	
 
   
 }
@@ -617,7 +579,7 @@ body.dark .logo img {
 			 background-color: rgb(255, 255, 255);
 			 margin-top: 100px;
 			 font-family: font;
-			 font-size: 1.5em;
+			 font-size: 2em;
 			 text-align: center;
 			 padding: 3em;
 			 
@@ -660,48 +622,54 @@ body {
 	/* turn above on to see the edge of panels */
   }
   .panel p {
-	 
+	 padding: 1em;
+	 text-align: center;
+	 font-size: 24px;
   }
   /* colours */
   .color-violet {
 	background-color: #794eab00;
   }
   .color-indigo {
-	background-color: #ff00000a;
+	background-color: #ff7b7b0a;
   }
   .color-blue {
-	background-color: #ff8a0513;
+	background-color: #ffcb9013;
   }
   .color-green {
-	background-color: #ffd9001f;
+	background-color: hsla(51, 100%, 81%, 0.122);
   }
   .color-yellow {
-	background-color: #ff009518;
+	background-color: #ff92d210;
   }
   
   
   /* styling for demo, can ignore */
-  body {
-	text-align: center;
-	font-size: 120%;
-	line-height: 1.618;
-  }
+ 
  .panel h1 {
-	font-size: 2em;
+	font-size: 3em;
 	letter-spacing: -0.05em;
 	line-height: 1.1;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 800;
-	margin-top: 70px;
+	font-family: font;
+	font-weight: 1000;
+	margin-top: 20px;
+	text-align: center;
+	padding: 1em;
 }
 .panel h3{
-	  font-family: 'Open Sans', sans-serif;
-font-style: italic;
-padding: 1em;
-  }
+	font-family: font;
+	font-style: italic;
+	padding: .5em;
+	text-align: center;
+	font-size: 1.5em;
+}
   
   a {
 	color: #4332CF;
   }
 
+  .h1about{
+	font-family: font;
+	color: green;
+  }
  
