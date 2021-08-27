@@ -672,4 +672,144 @@ body {
 	font-family: font;
 	color: green;
   }
+
+  .body12 {
+	position: relative;
+	height: 100%;
+  }
+
+  .body12 {
+	background: rgba(238, 238, 238, 0);
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	max-width: 70%;
+	margin: auto;
+	padding: 1em;
+	
+  }
  
+  .swiper2 {
+	width: 100%;
+	height: 100%;
+	
+  }
+
+  .swiper-slide1 {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+  }
+
+  .swiper-slide1 img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+
+  
+.button-container-1 {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6vh;
+	overflow: hidden;
+	border: 1px solid;
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	transition: 0.5s;
+	letter-spacing: 1px;
+	border-radius: 8px;
+  }
+  .button-container-1 button {
+	width: 101%;
+	height: 100%;
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-size: 11px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	background: #000;
+	-webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+	mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+	-webkit-mask-size: 2300% 100%;
+	mask-size: 2300% 100%;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	-webkit-animation: ani2 0.7s steps(22) forwards;
+	animation: ani2 0.7s steps(22) forwards;
+  }
+  .button-container-1 button:hover {
+	-webkit-animation: ani 0.7s steps(22) forwards;
+	animation: ani 0.7s steps(22) forwards;
+  }
+
+  
+.mas {
+	position: absolute;
+	color: #000;
+	text-align: center;
+	width: 101%;
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	position: absolute;
+	font-size: 11px;
+	margin-top: 17px;
+	overflow: hidden;
+	font-weight: bold;
+  }
+  
+  @-webkit-keyframes ani {
+	from {
+	  -webkit-mask-position: 0 0;
+	  mask-position: 0 0;
+	}
+	to {
+	  -webkit-mask-position: 100% 0;
+	  mask-position: 100% 0;
+	}
+  }
+  @keyframes ani {
+	from {
+	  -webkit-mask-position: 0 0;
+	  mask-position: 0 0;
+	}
+	to {
+	  -webkit-mask-position: 100% 0;
+	  mask-position: 100% 0;
+	}
+  }
+  
+  .space {
+	  padding: 1em;
+	  margin: auto;
+	  width: 50%;
+	  
+  }
+
+  .space img{
+	margin: auto;
+	width: 100px;
+	object-fit: contain;
+  }
