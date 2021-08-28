@@ -87,7 +87,8 @@
   }
   .site-footer .copyright-text,.site-footer .social-icons
   {
-    text-align:center
+    text-align:center;
+    padding: 1em;
   }
 }
 .social-icons
