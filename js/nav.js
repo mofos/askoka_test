@@ -5,7 +5,8 @@ class MyComponent extends HTMLElement {
     
     <div class="hero-anime">	
 
-	<div class="navigation-wrap bg-light start-header start-style">
+	<div class="navigation-wrap bg-light start-header start-style "style="
+    position: absolute;">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
