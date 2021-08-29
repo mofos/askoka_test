@@ -526,6 +526,9 @@ body.dark .logo img {
 			
 			
 		}
+		.grid-item{
+			padding: 1em;
+		}
 		.word h1{
 			color: white;
 			font-size: xx-large;
@@ -798,6 +801,7 @@ body {
 	  padding: 1em;
 	  margin: auto;
 	  width: 50%;
+	  margin-top: 90px;
 	  
 	}
 	
@@ -809,6 +813,9 @@ body {
 
 	.noneof h1{
 		display: none;
+	}
+	.noneat{
+		font-family: Font;
 	}
 	@media screen and (max-width: 700px) {
 		.swiper-container {
@@ -829,11 +836,11 @@ body {
 		.noneof h1{
 			display: block;
 	font-size: 20px;
-			font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: Font;
 			font-weight: 500;
 			position: absolute;
 			top: -35px;
-			left: 100px;
+			right: 0;
 			width: 50%;
 			color: rgb(255, 255, 255);
 			z-index: 100;
