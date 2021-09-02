@@ -372,6 +372,15 @@ body.hero-anime #switch{
 }
 
 
+.mainn h1{
+	background-color: rgb(255, 255, 255);
+	margin-top: 100px;
+	font-family: font;
+	font-size: 34px;
+	text-align: center;
+	padding: 3em;
+	
+ }
 
 
 
@@ -436,13 +445,14 @@ body.hero-anime #switch{
 
 	.mainn h1{
 		background-color: rgb(255, 255, 255);
-		margin-top: 1px;
+		margin-top: 120px;
 		font-family: font;
 		font-size: 24px;
 		text-align: center;
-		padding: 0.5em;
+		padding: 1em;
 		
 	}
+	
 }
 
 
@@ -571,15 +581,6 @@ body.dark .logo img {
 			background-color: #003A86;
 			font-size: 200px;
 		}
-		.mainn{
-			background-color: rgb(255, 255, 255);
-			margin-top: 100px;
-			font-family: font;
-			font-size: 2em;
-			text-align: center;
-			padding: 3em;
-			
-		 }
 		 .woman{
 			 
 		}

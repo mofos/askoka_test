@@ -42,12 +42,12 @@ Sanga Reddy district, Hyderabad - 502 325</p>
 </svg>
           </div>
 
-          <div class="col-sm-6 col-md-3">
+          <div class="col-sm-6 col-md-3 contact" style="max-width:100%; margin:auto;padding-right: 0px; padding-left: 0px;">
             <h6 style='text-align: right;'>CONTACT</h6>
             <div style='text-align: right;'>
               <p>Phone: +91 89850 45000</p><p>hairgrot@asokasandaltalcum.com</p>
             <ul class="social-icons">
-              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="facebook" href="https://www.facebook.com/AsokaTalcumPowder"><i class="fa fa-facebook"></i></a></li>
               <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
                 
             </ul>
