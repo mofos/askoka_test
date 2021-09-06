@@ -15,7 +15,6 @@ body{
 }
 
 
-
 .start-header {
 	opacity: 1;
 	transform: translateY(0);
@@ -488,9 +487,7 @@ body.dark .logo img {
 		  background: #fff;
 		  
 		  /* Center slide text vertically */
-		  display: -webkit-box;
-		  display: -ms-flexbox;
-		  display: -webkit-flex;
+		 
 		  display: flex;
 		  -webkit-box-pack: center;
 		  -ms-flex-pack: center;
@@ -697,7 +694,7 @@ body {
 .swiper-slide1 {
 	text-align: center;
 	font-size: 18px;
-	background: #fff;
+	background: rgba(255, 255, 255, 0);
 	
 	/* Center slide text vertically */
 	display: -webkit-box;
@@ -858,3 +855,4 @@ body {
 	
 	  
 	}
+	
