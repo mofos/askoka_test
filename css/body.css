@@ -815,6 +815,10 @@ body {
 	.noneat{
 		font-family: Font;
 	}
+	.card123{
+		max-width: 160px;
+		margin: auto;
+	}
 	@media screen and (max-width: 700px) {
 		.swiper-container {
 			width: 100%;
@@ -851,8 +855,12 @@ body {
 
 		}
 	
-		
+		.card123{
+			max-width: none;
+			margin: auto;
+		}
 	
 	  
 	}
+	
 	
