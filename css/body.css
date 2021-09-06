@@ -865,5 +865,6 @@ body {
 	
 	.nfs{
 		background-color: white;
+		z-index: 10;
 	}
 	
