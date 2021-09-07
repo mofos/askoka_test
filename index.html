@@ -70,8 +70,8 @@
       
       <div class="swiper1" style="padding-left: 10%; overflow-x: hidden;">
         
-        <div class="swiper-container mySwiper" >
-          <div class="swiper-wrapper" style="background-color: rgb(0, 0, 0); " >
+        <div class="swiper-container mySwiper123" >
+          <div class="swiper-wrapper"  >
             <div class="swiper-slide nfs" ><div class="word">
               <div class="grid-item">
 
@@ -175,6 +175,7 @@ difficulty with dry skin &amp; its problems." transform="translate(881 2330)" fi
               <img src="./assets/P 4.jpg" alt="" srcset="" style="border-radius: 45px 0px 0px 45px;"></div>
               
             </div>
+            
             
             
           </div>
@@ -349,6 +350,22 @@ difficulty with dry skin &amp; its problems." transform="translate(881 2330)" fi
       <!-- Initialize Swiper -->
       <script>
         var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 250,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+        var swiper1242 = new Swiper(".mySwiper123", {
           spaceBetween: 250,
           centeredSlides: true,
           autoplay: {
