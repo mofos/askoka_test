@@ -68,11 +68,11 @@
       </div>
       
       
-      <div class="swiper1" style="padding-left: 10%; overflow-x: hidden;">
+      <div class="swiper1" style="padding-left: 10%; overflow-x: hidden; overflow-y: hidden;">
         
         <div class="swiper-container mySwiper123" >
           <div class="swiper-wrapper"  >
-            <div class="swiper-slide nfs" ><div class="word">
+            <div class="swiper-slide " ><div class="word">
               <div class="grid-item">
 
               </div>
@@ -351,6 +351,10 @@ difficulty with dry skin &amp; its problems." transform="translate(881 2330)" fi
       <script>
         var swiper = new Swiper(".mySwiper", {
           spaceBetween: 250,
+          effect: 'fade',
+  fadeEffect: { // Add this
+    crossFade: true,
+  },
           centeredSlides: true,
           autoplay: {
             delay: 2500,
