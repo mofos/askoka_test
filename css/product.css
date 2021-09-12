@@ -163,3 +163,10 @@ body{
  margin: auto;
  text-align: center;
 }
+
+hr.new1 {
+  width: 80%;
+  margin: auto;
+  border: .5px solid;
+  margin-top: 2.5em;
+}
