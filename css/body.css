@@ -819,6 +819,27 @@ body {
 		max-width: 260px;
 		margin: auto;
 	}
+	
+	.nfs{
+		background-color: black;
+		z-index: 10;
+	}
+	
+	.butin{
+		z-index: 100;
+		width: 150px;
+		position: absolute;
+		font-size: 17px;
+		margin-top: 47%;
+		background-color: rgb(255, 226, 185);
+		border-radius: .1em;
+		left: 80%;
+		right: 20%;
+		padding: 1em;
+		border-color: black;
+		border: 1px solid;
+		color: #000;
+	}
 	@media screen and (max-width: 700px) {
 		.swiper-container {
 			width: 100%;
@@ -859,12 +880,22 @@ body {
 			max-width: none;
 			margin: none;
 		}
+
+
+		.butin{
+			z-index: 100;
+			width: 100px;
+			font-size: 10px;
+			margin: auto;
+			position: absolute;
+			margin-top: 45%;
+			background-color: rgb(255, 226, 185);
+			border-radius: .1em;
+			left: 25%;
+			right:25%;
+			border-color: black;
+			border: 1px solid;
+		}
 	
 	  
 	}
-	
-	.nfs{
-		background-color: black;
-		z-index: 10;
-	}
-	
