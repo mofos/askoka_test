@@ -7,7 +7,7 @@ class footer extends HTMLElement {
       <div class="container">
         <div class="row">
           <div class="col-sm-7 col-md-5" >
-            <h6>About</h6>
+            <h6>ADDRESS</h6>
             <p class="text-justify">104C S.V. Cooperative Credit Society,
 IDA Bollaram (Vi), Jinnaram (M),
 Sanga Reddy district, Hyderabad - 502 325</p>
