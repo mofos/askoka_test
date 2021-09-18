@@ -535,6 +535,7 @@ body.dark .logo img {
 		}
 		.grid-item{
 			padding: 1em;
+			height: 100%;
 		}
 		.word h1{
 			color: white;
@@ -831,7 +832,7 @@ body {
 		position: absolute;
 		font-size: 17px;
 		margin-top: 47%;
-		background-color: rgb(255, 226, 185);
+		background-color: #EBE4DE;
 		border-radius: .1em;
 		left: 80%;
 		right: 20%;
@@ -840,7 +841,40 @@ body {
 		border: 1px solid;
 		color: #000;
 	}
-	@media screen and (max-width: 700px) {
+	.butin2{
+		z-index: 100;
+		width: 10%;
+		position: absolute;
+		font-size: 1.3vh;
+		font-family: Font;
+		font-weight: bold;
+		bottom: 10%;
+		background-color: #EBE4DE;
+		border-radius: .1em;
+		padding: 1em;
+		border-color: black;
+		border: 1px solid;
+		color: #000;
+		left: 80%;
+		display: block;
+		
+	}
+	.butin3{
+		z-index: 100;
+		width: 30%;
+		position: absolute;
+		font-size: 1.2vh;
+		bottom: 0;
+		right: 0;
+		background-color: #EBE4DE;
+		border-radius: .1em;
+		display: none;
+		padding: 1em;
+		border-color: black;
+		border: 1px solid;
+		color: #000;
+	}
+	@media screen and (max-width: 900px) {
 		.swiper-container {
 			width: 100%;
 			
@@ -889,12 +923,20 @@ body {
 			margin: auto;
 			position: absolute;
 			margin-top: 45%;
-			background-color: rgb(255, 226, 185);
+			background-color:#EBE4DE;
 			border-radius: .1em;
 			left: 25%;
 			right:25%;
 			border-color: black;
 			border: 1px solid;
+		}
+
+		.butin2{
+			display: none;
+		}
+
+		.butin3{
+			display: block;
 		}
 	
 	  
