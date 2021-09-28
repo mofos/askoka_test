@@ -10,7 +10,7 @@ class footer extends HTMLElement {
             <h6>ADDRESS</h6>
             <p class="text-justify">104C S.V. Cooperative Credit Society,
 IDA Bollaram (Vi), Jinnaram (M),
-Sanga Reddy district, Hyderabad - 502 325</p>
+Sangareddy district, Hyderabad - 502 325</p>
           </div>
 
           <div class="col-sm-3 col-md-3" style='text-align: center; '>
